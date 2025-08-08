@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+    <!-- Replace the content tag with appropriate information -->
+    <meta name="description" content="DESCRIPTION META TAG">
+    <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+    <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+    <meta property="og:url" content="URL OF THE WEBSITE"/>
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+    <meta property="og:image" content="static/image/your_banner_image.png"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+
+
+    <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+    <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+    <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+    <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- Keywords for your paper to be indexed by-->
+    <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>DecisionSpikeFormer</title>
+    <link rel="icon" type="image/x-icon" href="static/images/icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="static/css/bulma.min.css">
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="static/css/index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-desktop">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <h2 class="title is-1 publication-title">Decision SpikeFormer: Spike-Driven Transformer for Decision Making</h2>
+                    <h3 class="title is-2 publication-conf">CVPR 2025</h3>
+                    <div class="is-size-5 publication-authors">
+                        <!-- Paper authors -->
+                        <span class="author-block">
+                            Wei Huang<sup>1,2</sup>,
+                        </span>
+                        <span class="author-block">
+                          Qinying Gu<sup>1†</sup>,
+                        </span>
+                        <span class="author-block">
+                            Nanyang Ye<sup>3†</sup>
+                        </span>
+                            <!--                  <span class="author-block"> Tianfan Xue<sup>3</sup>-->
+                            <!--                  <span class="author-block">-->
+                            <!--                    <a href="https://sites.google.com/view/xinyang/home" target="_blank">Xin Yang</a><sup>1†</sup>-->
+<!--                  </span>-->
+                    </div>
+                    <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>Shanghai AI Laboratory,
+                      <sup>2</sup>Wuhan University,
+                      <sup>3</sup>Shanghai Jiao Tong University</span>
+                        <span class="eql-cntrb"><small><br><sup>†</sup>indicates corresponding author</small></span>
+                    </div>
+
+                    <div class="column has-text-centered">
+                        <div class="publication-links">
+                            <!-- PDF Link. -->
+                            <span class="link-block">
+                        <a href=""
+                           class="external-link button is-normal is-rounded is-dark">
+                          <span class="icon">
+                              <i class="fas fa-file-pdf"></i>
+                          </span>
+                          <span>Paper</span>
+                        </a>
+                      </span>
+                            <!-- Video Link. -->
+                            <span class="link-block">
+                        <a href=""
+                           class="external-link button is-normal is-rounded is-dark">
+                          <span class="icon">
+                              <i class="fab fa-youtube"></i>
+                          </span>
+                          <span>Video</span>
+                        </a>
+                      </span>
+                            <!-- Code Link. -->
+                            <span class="link-block">
+                        <a href="https://github.com/Wei-Nijuan/DecisionSpikeFormer"
+                           class="external-link button is-normal is-rounded is-dark">
+                          <span class="icon">
+                              <i class="fab fa-github"></i>
+                          </span>
+                          <span>Code</span>
+                          </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- <section class="hero teaser">
+<!--   <div class="container is-max-desktop"> -->
+<!--   <style>
+    #teaser-container {
+        width: 100%; /* 设置视频容器的宽度 */
+        margin: 0 auto; /* 居中视频容器 */
+    }
+
+    #teaser {
+        width: 40%; /* 设置视频的宽度 */
+        height: auto; /* 根据宽度调整高度以保持比例 */
+        margin: 0 auto; /* 居中视频容器 */
+    }
+</style> -->
+<!--     <div class="hero-body">
+<!--       <video id="teaser" autoplay muted loop playsinline"> -->
+<!--       <video width="60%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
+        <source src="static/videos/teaser.mp4"
+        type="video/mp4">
+      </video> -->
+<!--     </div>
+      <h2 class="subtitle has-text-centered">
+        Our HDRFlow is the first real-time HDR video reconstruction method for video sequences captured with alternating exposures, capable of processing 720p resolution inputs at 25ms.
+      </h2>
+  </div>
+</section> -->
+
+<style>
+    video {
+        display: block;
+        margin: 0 auto;
+    }
+</style>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <hr style="margin-top:0px">
+<!--                居中显示-->
+                <h4 class="title" style="text-align: center;">Spike-driven Self-Attention Mechanism</h4>
+                <!--             <video width="40%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
+                              <source src="static/videos/teaser.mp4" type="video/mp4">
+                            </video> -->
+                <img src="static/images/self-attention.jpg" width="80%" alt="Teaser Image"
+                     style="display: block; margin: 0 auto;">
+                <!--           <p class="text-left">We propose a robust and efficient flow estimator tailored for real-time HDR video reconstruction, named HDRFlow. HDRFlow predicts HDR-oriented optical flow and exhibits robustness to large motions.
+                          </div> -->
+            </div>
+        </div>
+</section>
+
+<!--<section>-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-12 text-center">-->
+<!--                <hr style="margin-top:0px">-->
+<!--                <video width="80%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">-->
+<!--                    <source src="static/videos/teaser_v2.mp4" type="video/mp4">-->
+<!--                </video>-->
+<!--                <p class="text-center">HDR video reconstruction from sequences captured with two alternating exposures.-->
+<!--                    LAN-HDR[ICCV 2023] performs alignment using an attention module. However, using attention easily-->
+<!--                    aggregates irrelevant information, resulting in local inconsistency. Our HDRFlow can produce-->
+<!--                    pleasing results in these regions.-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <hr style="margin-top:0px">
+                <h4 class="title" style="text-align: center;">Architecture for offlineRL</h4>
+                <!--             <video width="40%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
+                              <source src="static/videos/teaser.mp4" type="video/mp4">
+                            </video> -->
+                <img src="static/images/architecture.jpg" width="60%" alt="Teaser Image"
+                     style="display: block; margin: 0 auto;">
+                <!--           <p class="text-left">We propose a robust and efficient flow estimator tailored for real-time HDR video reconstruction, named HDRFlow. HDRFlow predicts HDR-oriented optical flow and exhibits robustness to large motions.
+                          </div> -->
+            </div>
+        </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <hr style="margin-top:0px">
+                <h4 class="title" style="text-align: center;">PTBN</h4>
+                <!--             <video width="40%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
+                              <source src="static/videos/teaser.mp4" type="video/mp4">
+                            </video> -->
+                <img src="static/images/tdLN.jpg" width="60%" alt="Teaser Image"
+                     style="display: block; margin: 0 auto;">
+                <!--           <p class="text-left">We propose a robust and efficient flow estimator tailored for real-time HDR video reconstruction, named HDRFlow. HDRFlow predicts HDR-oriented optical flow and exhibits robustness to large motions.
+                          </div> -->
+            </div>
+        </div>
+</section>
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <!-- Abstract. -->
+        <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+                <h2 class="title is-3">Abstract</h2>
+                <div class="content has-text-justified">
+                    <p>
+                        Offline reinforcement learning (RL) enables policy training solely on pre-collected data,
+                        avoiding direct environment interaction—a crucial benefit for energy-constrained embodied AI applications.
+                        Although Artificial Neural Networks (ANN)-based methods perform well in offline RL,
+                        their high computational and energy demands motivate exploration of more efficient alternatives.
+                        Spiking Neural Networks (SNNs) show promise for such tasks, given their low power consumption.
+                        In this work, we introduce DSFormer, the first spike-driven transformer model designed to tackle
+                        offline RL via sequence modeling. Unlike existing SNN transformers focused on spatial dimensions for vision tasks,
+                        we develop Temporal Spiking Self-Attention (TSSA) and Positional Spiking Self-Attention (PSSA) in DSFormer
+                        to capture the temporal and positional dependencies essential for sequence modeling in RL. Additionally,
+                        we propose Progressive Threshold-dependent Batch Normalization (PTBN), which combines the benefits
+                        of LayerNorm and BatchNorm to preserve temporal dependencies while maintaining the spiking nature of SNNs.
+                        Comprehensive results in the D4RL benchmark show DSFormer’s superiority over both SNN and ANN counterparts,
+                        achieving 78.4% energy savings, highlighting DSFormer's advantages not only in energy efficiency
+                        but also in competitive performance.
+                    </p>
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <!--/ Abstract. -->
+
+        <!-- Paper video. -->
+        <!--     <div class="columns is-centered has-text-centered">
+              <div class="column is-four-fifths">
+                <h2 class="title is-3">Video</h2>
+                <div class="publication-video">
+                  <iframe src=""
+                          frameborder="0" allow="autoplay; encrypted-media" allowfullscreen height="30%"></iframe>
+                </div>
+              </div>
+            </div> -->
+        <!--/ Paper video. -->
+    </div>
+</section>
+
+<!-- End paper abstract -->
+
+<!-- Teaser video-->
+<!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3">Video</h2>
+      <video poster="" id="tree" autoplay controls muted loop height="60%"> -->
+<!-- Your video here -->
+<!-- <source src="static/videos/video_supp.mp4"
+type="video/mp4">
+</video>
+<h2 class="subtitle has-text-centered">
+Magnification results on real-world video.
+</h2>
+</div>
+</div>
+</section> -->
+<!-- End teaser video -->
+
+
+<!-- BibTex citation -->
+<section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+        <h2 class="title">BibTeX</h2>
+        <pre><code>
+@InProceedings{huang2025decisionspike,
+  author    = {Wei Huang, Qinying Gu, Nanyang Ye},
+  title     = {Decision SpikeFormer: Spike-Driven Transformer for Decision Making},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2025},
+  month     = {June}
+}
+        </code></pre>
+    </div>
+</section>
+<!--End BibTex citation
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+<!-- End of Statcounter Code -->
+
+</body>
+</html>
+
